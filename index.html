@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mitchell Site</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #1a1a2e;
+      color: #fff;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+    header h1 { font-size: 2.4rem; margin-bottom: 0.4rem; }
+    header p  { font-size: 1.1rem; opacity: 0.8; }
+    main {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+    section { margin-bottom: 3rem; }
+    section h2 {
+      font-size: 1.5rem;
+      border-bottom: 2px solid #1a1a2e;
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.2rem;
+      color: #1a1a2e;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.2rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1.4rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.15s, box-shadow 0.15s;
+      display: block;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+    }
+    .card h3 { font-size: 1.1rem; margin-bottom: 0.4rem; color: #1a1a2e; }
+    .card p  { font-size: 0.9rem; color: #666; }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.85rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mitchell Site</h1>
+  <p>Research &amp; Streamlit Apps</p>
+</header>
+
+<main>
+  <section id="research">
+    <h2>Research</h2>
+    <div class="card-grid">
+      <a class="card" href="#" aria-label="Project Overview (link coming soon)">
+        <h3>Project Overview</h3>
+        <p>A brief summary of current research topics and goals.</p>
+      </a>
+      <a class="card" href="#" aria-label="Publications (link coming soon)">
+        <h3>Publications</h3>
+        <p>Links to papers, preprints, and other published work.</p>
+      </a>
+      <a class="card" href="#" aria-label="Data and Code (link coming soon)">
+        <h3>Data &amp; Code</h3>
+        <p>Datasets and source code repositories for reproducibility.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="apps">
+    <h2>Streamlit Apps</h2>
+    <div class="card-grid">
+      <a class="card" href="#" aria-label="Demo App (link coming soon)">
+        <h3>Demo App</h3>
+        <p>An interactive demo built with Streamlit. Click to launch.</p>
+      </a>
+      <a class="card" href="#" aria-label="Data Explorer (link coming soon)">
+        <h3>Data Explorer</h3>
+        <p>Upload and explore datasets with built-in visualizations.</p>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2026 Mitchell Site &mdash; Built with GitHub Pages
+</footer>
+
+</body>
+</html>
