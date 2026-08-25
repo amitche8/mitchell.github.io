@@ -1,2 +1,2 @@
 # mitchell_site
-Websit
+Website
